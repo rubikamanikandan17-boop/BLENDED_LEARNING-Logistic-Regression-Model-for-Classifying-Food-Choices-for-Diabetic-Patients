@@ -105,6 +105,7 @@ RegisterNumber:
 
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
+```
 Name: Rubika m 
 Reg. No: 25008774 
 Dataset Overview:
@@ -189,7 +190,7 @@ print('Name: Rubika m ')
 print('Reg. No: 25008774 ')
 Name: Rubika m 
 Reg. No: 25008774 
-
+```
 
 ## Result:
 Thus, the logistic regression model was successfully implemented to classify food items for diabetic patients based on nutritional information, and the model's performance was evaluated using various performance metrics such as accuracy, precision, and recall.
