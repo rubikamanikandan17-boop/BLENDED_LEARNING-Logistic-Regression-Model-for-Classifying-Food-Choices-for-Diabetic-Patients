@@ -9,11 +9,23 @@ To implement a logistic regression model to classify food items for diabetic pat
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+```
+Load the food items dataset.
 
+Separate input features (nutrition values) and target label.
+
+Normalize the input features using MinMaxScaler.
+
+Encode the target variable using LabelEncoder.
+
+Split the dataset into training and testing sets.
+
+Train the Logistic Regression model on training data.
+
+Predict the class labels for test data.
+
+Evaluate the model using accuracy and other performance metrics. 
+```
 ## Program:
 ```
 import pandas as pd
@@ -25,13 +37,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 df = pd.read_csv('food_items (1).csv')
 # Inspect the dataset
-print('Name: Rubika m ')
+print('Name:Roopika m')
 print('Reg. No: 25008774 ')
 print("Dataset Overview:")
 print(df.head())
 print("\nDataset Info:")
 print(df.info())
-Name: Rubika m 
+Name: Roopika m 
 Reg. No: 25008774 
 
 ​
@@ -84,14 +96,14 @@ l2_model.fit(X_train, y_train)
 LogisticRegression
 LogisticRegression(max_iter=1000, multi_class='multinomial', random_state=123)
 y_pred = l2_model.predict(X_test)
-print('Name: Rubika m ')
+print('Name: Roopika m ')
 print('Reg. No: 25008774')
 print("\nModel Evaluation:")
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 ​
-Name: Rubika m 
+Name: Roopika m 
 Reg. No: 25008774
 
 ​
@@ -106,7 +118,7 @@ RegisterNumber:
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
 ```
-Name: Rubika m 
+Name: Roopika m 
 Reg. No: 25008774 
 Dataset Overview:
    Calories  Total Fat  Saturated Fat  Monounsaturated Fat  \
@@ -186,9 +198,9 @@ print(conf_matrix)
  [ 290  834    0]
  [ 136    0   62]]
  25008774
-print('Name: Rubika m ')
+print('Name: Roopika m ')
 print('Reg. No: 25008774 ')
-Name: Rubika m 
+Name: Roopika m 
 Reg. No: 25008774 
 ```
 
